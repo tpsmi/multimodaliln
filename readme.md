@@ -1,5 +1,7 @@
 # Illustrated London News Processing Project
 
+*Note: Parts of this code and documentation were written or verified with assistance from Claude.ai*
+
 This project contains a series of Jupyter notebooks for processing and analyzing images from the Illustrated London News collection. It covers the entire pipeline from data collection to multimodal search, enabling researchers to work with historical image datasets effectively.
 
 ## Table of Contents
@@ -8,7 +10,9 @@ This project contains a series of Jupyter notebooks for processing and analyzing
 3. [Setup](#setup)
 4. [Notebooks](#notebooks)
 5. [Running the Code](#running-the-code)
-6. [Troubleshooting](#troubleshooting)
+6. [License](#license)
+7. [Citation](#citation)
+8. [Troubleshooting](#troubleshooting)
 
 ## Project Overview
 
@@ -186,6 +190,26 @@ Follow these steps to run the notebooks in this project:
 - It's recommended to save intermediate outputs (like converted images or trained models) in case you need to rerun parts of the pipeline without starting from scratch.
 
 By following these steps, you should be able to process your image collection from raw downloads to searchable, analyzed data. Remember to adjust parameters and paths as necessary for your specific use case.
+
+## License
+
+This project is licensed under the Creative Commons Zero v1.0 Universal (CC0-1.0) license. This means you can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission. For more details, see the [LICENSE](LICENSE) file in this repository.
+
+## Citation
+
+If you use this code or dataset in your research, please cite our paper:
+
+```bibtex
+@article{smits2025fully,
+  title={A Fully-Searchable Multimodal Dataset of the Illustrated London News, 1842-1890},
+  author={Smits, Thomas and Warner, Benjamin and Fyfe, Paul and Lee, Benjamin C. G.},
+  journal={Journal of Open Humanities Data},
+  volume={11},
+  number={1},
+  year={2025},
+  doi={10.5334/johd.284}
+}
+```
 
 ## Troubleshooting
 
