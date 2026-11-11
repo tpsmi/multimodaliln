@@ -16,7 +16,9 @@ This project contains a series of Jupyter notebooks for processing and analyzing
 
 ## Project Overview
 
-The Illustrated London News Processing Project aims to digitize, process, and analyze historical images from the Illustrated London News. This project demonstrates a complete workflow for working with large-scale historical image collections, including data acquisition, image processing, machine learning model training, and multimodal search capabilities.
+The Illustrated London News Processing Project aims to digitize, process, and analyze historical images from the Illustrated London News. This project demonstrates a complete workflow for working with large-scale historical image collections, including data acquisition, image processing, machine learning model training, and multimodal search capabilities. 
+
+For many digital humanities scholars, this may be your first time using GitHub. GitHub is an open-source software used primarily by developers to share and develop code. It uses [repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories) to store files, which is where this information lives. For this process, you will have to [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository to work with the data set on your local device.
 
 ## Requirements
 
