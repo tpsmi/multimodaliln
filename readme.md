@@ -30,6 +30,8 @@ The entire tech stack is open-source and free to use.
 
 For many digital humanities scholars, this may be your first time using GitHub. GitHub is an open-source software used primarily by developers to share and develop code. It uses [repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories) to store files, which is where this information lives. For this process, you will have to [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository to work with the data set on your local device.
 
+You will need a GitHub account, which can be made [here](https://github.com/) if you don't have one.
+
 ## Requirements
 
 - Python 3.11 or later
