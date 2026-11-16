@@ -32,6 +32,12 @@ For many digital humanities scholars, this may be your first time using GitHub. 
 
 You will need a GitHub account, which can be made [here](https://github.com/) if you don't have one.
 
+## Multimodaliln vs. ilnmultimodal search
+
+The *multimodaliln* repo instructs enables users to reproduce the whole workstream, including building the dataset, collecting images, and recreating the exact search setup we used. This allows you to point identifiers at different periodicals or volume ranges, but also requires additional downloads. It is best for researchers and students who are curious how the dataset was built, or interested in using their own collection.
+
+The [ilnmultimodalsearch](https://github.com/tpsmi/ilnmultimodalsearch) companion repo produces a lightweight python script which runs in the Flask web app. It works well when you would like to search the ILN database quickly without actually processing any images.
+
 ## Requirements
 
 - Python 3.11 or later
