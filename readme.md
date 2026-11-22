@@ -16,7 +16,27 @@ This project contains a series of Jupyter notebooks for processing and analyzing
 
 ## Project Overview
 
-The Illustrated London News Processing Project aims to digitize, process, and analyze historical images from the Illustrated London News. This project demonstrates a complete workflow for working with large-scale historical image collections, including data acquisition, image processing, machine learning model training, and multimodal search capabilities.
+The Illustrated London News Processing Project aims to digitize, process, and analyze historical images from the Illustrated London News. This project demonstrates a complete workflow for working with large-scale historical image collections, including data acquisition, image processing, machine learning model training, and multimodal search capabilities. 
+
+## Tech Stack
+The entire tech stack is open-source and free to use.
+
+1. Conda - Anaconda and MiniConda are both installers that help you setup Python. They give you access to the same packages and environments.
+2. ImageMagick - Image processing software used to edit and convert images. 
+3. Tesseract OCR - Text recognition software used to extract printed text from images.
+4. Git - Version control system of GitHub.
+
+## Using GitHub
+
+For many digital humanities scholars, this may be your first time using GitHub. GitHub is an open-source software used primarily by developers to share and develop code. It uses [repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories) to store files, which is where this information lives. For this process, you will have to [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository to work with the data set on your local device.
+
+You will need a GitHub account, which can be made [here](https://github.com/) if you don't have one.
+
+## Multimodaliln vs. ilnmultimodal search
+
+The *multimodaliln* repo instructs enables users to reproduce the whole workstream, including building the dataset, collecting images, and recreating the exact search setup we used. This allows you to point identifiers at different periodicals or volume ranges, but also requires additional downloads. It is best for researchers and students who are curious how the dataset was built, or interested in using their own collection.
+
+The [ilnmultimodalsearch](https://github.com/tpsmi/ilnmultimodalsearch) companion repo produces a lightweight python script which runs in the Flask web app. It works well when you would like to search the ILN database quickly without actually processing any images.
 
 ## Requirements
 
